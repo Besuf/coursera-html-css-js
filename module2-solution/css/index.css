@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 30px;
+}
+
+h1 {
+  font-size: 1.75em;
+  text-align: center;
+  margin-top: 40px;
+}
+h3 {
+  font-size: 1.25em;
+  text-align: center;
+  color: "inherit";
+}
+
+div.container {
+  margin-top: 25px;
+  height: 40px;
+  width: 100%;
+}
+
+section {
+  padding: 15px;
+  float: left;
+  width: 33.33%;
+  width: calc(100% / 3);
+}
+
+section > div {
+  position: relative;
+  background: #b5aea1;
+  padding: 20px;
+  border: 1px solid black;
+}
+section > div > p {
+  margin-top: 30px;
+}
+.sectionTitle {
+  position: absolute;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+section > div > div.beef {
+  background: #a37063;
+  color: #fff;
+}
+
+section > div > div.sushi {
+  background: #a0955d;
+  color: yellow;
+}
+
+section > div > div.chicken {
+  background: brown;
+  color: cornsilk;
+}
+
+@media (min-width: 992px) {
+  section {
+    padding: 15px;
+    float: left;
+    width: 33.33%;
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    padding: 15px;
+    float: left;
+    width: 50%;
+  }
+  section.sushi {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 15px;
+    float: left;
+    width: 100%;
+  }
+}
