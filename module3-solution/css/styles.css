@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
+
+#header-nav {
+  background-color: #61543e;
+  border-radius: 0;
+  border: 0;
+  height: auto !important;
+}
+
+#brand-name {
+  font-size: 2em;
+  font-weight: bold;
+
+  color: #ffc65a;
+  margin: 20px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #ffc65a;
+}
+.navbar-header button.navbar-toggle {
+  margin: 20px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #4e4332;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffc65a;
+}
+
+.link {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffc65a;
+}
+
+.nav-list {
+  border-bottom: 1px solid #ffc65a;
+}
+
+.food-section {
+  height: 200vh;
+  width: 100%;
+  background-color: #808000;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1.2em;
+}
